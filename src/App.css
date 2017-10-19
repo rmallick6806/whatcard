@@ -3,7 +3,7 @@
 }
 
 .outer-container {
-  padding: 40px 80px;
+  padding: 0px 80px;
 }
 
 .what-card-logo {
@@ -30,7 +30,7 @@
 }
 
 .what-card-header div:hover {
-  color: #b70944;
+  color: #dc2966;
 }
 
 .row-card-container {
@@ -97,11 +97,24 @@
   font-weight: bold;
   /*width: 150px;*/
   /*border-radius: 75px;*/
-  border: 3px solid;
+  /*border: 3px solid;*/
+}
+
+.inverse-button {
+  color: white;
+  background: #dc2966;
 }
 
 .card-button:hover {
-  border: 3px solid white;
+  outline: 3px solid white;
+  outline-offset: -3px;
   background: #dc2966;
   color: white;
+}
+
+.inverse-button:hover {
+  outline: 3px solid white;
+  outline-offset: -3px;
+  color: #dc2966;
+  background: white;
 }
